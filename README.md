@@ -1,3 +1,13 @@
+## Live API Endpoint
+
+POST https://bitespeed-identity-reconciliation-728c.onrender.com/identify
+
+### Sample Request
+{
+  "email": "test@test.com",
+  "phoneNumber": "123456"
+}
+
 # Bitespeed Identity Reconciliation
 
 Backend service that reconciles customer identities based on email and phone number via a `POST /identify` endpoint.
